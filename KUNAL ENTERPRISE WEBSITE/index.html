@@ -55,138 +55,120 @@
 
     <!-- MAIN -->
     <main class="main-content">
-        <section class="home" id="home">
-            <div class="conatiner">
-                <div class="intro">
-                    <!-- <img src="img\avatar2-removebg-preview.png" width="245px" height="245px" alt="Tarang"> -->
-                    <h1>Kunal Enterprises</h1>
-                    
-                    <span>We are <span class="info-text">Authorized Stockists and Channel partners  </span></span>
-                    <!-- social icons -->
-                    <!-- <ul class="social-icons">
-                        <li><a href="https://www.instagram.com/tarang.jasnani/"><i class="lni lni-instagram-original "></i></a></li>
-                        <li><a href="https://in.linkedin.com/in/tarang-jasnani-aaa770254"><i class="lni lni-linkedin-original "></i></a></li>
-                        <li><a href="https://github.com/3amdevvv"><i class="lni lni-github-original"></i></a></li>
-                        <li><a href="https://in.pinterest.com/"><i class="lni lni-pinterest"></i></a></li>
-                        <li><a href="https://dribbble.com/following"><i class="lni lni-dribbble"></i></a></li>
-                    </ul> -->
-                    <!-- buttons -->
-                    <div>
-                        <a href="https://mail.google.com/mail/u/0/#inbox" class="btn btn-default" >More about us</a>
-                    </div>
-                    <div class="scroll-down">
-                        <a href="#" class="mouse-wrapper">
-                            <span>Scroll down</span>
-                            <span class="mouse">
-                                <span class="wheel"></span>
-                            </span>
-                        </a>
+        
+        <section class="home" id="home" style="background: url('image.png') no-repeat center center/cover; height: 100vh; position: relative; display: flex; align-items: center; justify-content: center; color: white;">
+            <!-- Background Overlay -->
+            <div style="content: ''; position: absolute; top: 0; left: 0; width: 100%; height: 100%; background: rgba(0, 0, 0, 0.5); z-index: 1;"></div>
+        
+            <!-- Content -->
+            <div class="intro" style="position: relative; z-index: 2; text-align: center; max-width: 80%; padding: 20px; border-radius: 10px; background: rgba(0, 0, 0, 0.6); box-shadow: 0 4px 15px rgba(0, 0, 0, 0.3);">
+                <h1 style="font-size: 3rem; margin-bottom: 10px; font-family: 'Arial', sans-serif;">Kunal Enterprises</h1>
+                <span style="font-size: 1.25rem; display: block; margin-bottom: 20px;">We are <span class="info-text" style="color: #00FF7F;">Authorized Stockists and Channel Partners</span></span>
+                <div>
+                    <a href="https://mail.google.com/mail/u/0/#inbox" class="btn btn-default" style="padding: 10px 20px; font-size: 1rem; background: #00FF7F; color: white; border-radius: 5px; text-decoration: none; transition: transform 0.3s ease;">
+                        More about us
+                    </a>
+                </div>
+                <div class="scroll-down" style="margin-top: 40px;">
+                    <a href="#" class="mouse-wrapper" style="color: white; text-decoration: none; font-size: 1rem;">
+                        
+                        
+                    </a>
+                </div>
+            </div>
+        
+            <style>
+                /* Scroll animation */
+                @keyframes scroll-wheel {
+                    0% {
+                        top: 8px;
+                        opacity: 1;
+                    }
+                    50% {
+                        top: 16px;
+                        opacity: 0.5;
+                    }
+                    100% {
+                        top: 8px;
+                        opacity: 1;
+                    }
+                }
+        
+                .btn-default:hover {
+                    background: #00cc66;
+                    transform: scale(1.05);
+                }
+            </style>
+        </section>
+        
+        <section class="about section" id="about" style="background: linear-gradient(to bottom, rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.9)), url('background-about.jpg') no-repeat center center/cover; color: white; padding: 50px 0;">
+            <div class="container">
+                <!-- Section Title -->
+                <h2 class="section-title padd-15" style="text-align: center; font-size: 2.5rem; margin-bottom: 30px; font-family: 'Rubik', sans-serif;">About Us</h2>
+                <div class="row">
+                    <!-- About Content -->
+                    <div class="about-content padd-15" style="background: rgba(0, 0, 0, 0.6); padding: 20px; border-radius: 10px; box-shadow: 0 8px 15px rgba(0, 0, 0, 0.5);">
+                        <p style="font-size: 1.2rem; line-height: 1.8; margin-bottom: 20px;">
+                            Established in 2002, M/S KUNAL ENTERPRISES specializes in the supply and installation of electronic equipment for monitoring and controlling electrical power parameters. The proprietor, an electronics engineer from Pune (1988), has diverse experience with M/S FINOLEX CABLES LTD and TATA INSTITUTE OF FUNDAMENTAL RESEARCH. In 1993, the proprietor joined M/S MINILEC INDIA PVT LTD, advancing from Sales Engineer to Area Manager, overseeing regions such as Mumbai, Gujarat, and Asia Pacific Countries.
+                        </p>
+                        <div style="text-align: center;">
+                            <a href="img/Kunal Enterprises Updated.pdf" class="btn" style="padding: 12px 25px; font-size: 1rem; background: #00FF7F; color: white; border-radius: 5px; text-decoration: none; transition: transform 0.3s ease; box-shadow: 0 4px 10px rgba(0, 255, 127, 0.3);">
+                                Download Profile
+                            </a>
+                        </div>
                     </div>
                 </div>
-            </div>    
-        </section>
-        <section class="about section" id="about">
-            <div class="container">
-                <!-- section title -->
-                <h2 class="scetion-title padd-15">About us </h2>
-                <div class="row">
-                    <div class="about-img padd-15">
-                        <!-- <img src="img\avatar_about-removebg-preview.png" width="175px" height="175px" alt="Tarang 2">     -->
-                    </div>
-                    <div class="about-content padd-15">
-                        <div class="rounded">
-                            <div class="row">
-                                <div class="about-text padd-15">
-                                    <!-- about text -->
-                                    <p>
-                                        Established in 2002, M/S KUNAL ENTERPRISES specializes in supply and installation electronic equipment for monitoring and control of electrical power parameters. The proprietor, with an electronic engineering from Pune in 1988, has diverse experience at M/S FINOLEX CABLES LTD and TATA INSTITUTE OF FUNDAMENTAL RESEARCH. Joined M/S MINILEC INDIA PVT LTD in 1993, advancing from sales engineer to area manager, overseeing Mumbai, Gujarat, and Asia Pacific Countries.
-                                    </p>
-                                         <div>
-                                            <a href="img\Kunal Enterprises Updated.pdf" class="btn btn-default">Download Profile</a>
-                                         </div>
-                                </div>
-                                <div class="skills padd-15">
-                                    <div class="row">
-                                        <!-- skills section -->
-                                        <div class="skills-item">
-                                            <h4>Minilec</h4>
-                                            <div class="progress">
-                                                <div class="progress-in" style="width: 70%; background: rgb(224, 96, 105);">
-                                                    <div class="skill-percent"></div>
-                                                </div>
-                                            </div>
-                                        </div>
-                                        <div class="skills-item" >
-                                            <h4>Schiender</h4>
-                                            <div class="progress">
-                                                <div class="progress-in" style="width: 70%; background: rgb(75, 209, 185);">
-                                                    <div class="skill-percent"></div>
-                                                </div>
-                                            </div>
-                                        </div>
-                                        <!-- <div class="skills-item">
-                                            <h4>TRAVELLING</h4>
-                                            <div class="progress">
-                                                <div class="progress-in" style="width: 80%; background: rgb(225, 209, 92);">
-                                                    <div class="skill-percent">80%</div>
-                                                </div>
-                                            </div>
-                                        </div>
-                                        <div class="skills-item">
-                                            <h4>SKETCHING</h4>
-                                            <div class="progress">
-                                                <div class="progress-in" style="width: 40%; background: rgb(54, 147, 111);">
-                                                    <div class="skill-percent">40%</div>
-                                                </div>
-                                            </div>
-                                        </div>
-                                        <div class="skills-item">
-                                            <h4>EVENT ORGANISER</h4>
-                                            <div class="progress">
-                                                <div class="progress-in" style="width: 85%; background: rgb(227, 94, 131);">
-                                                    <div class="skill-percent">85%</div>
-                                                </div>
-                                            </div>
-                                        </div> -->
-                                    </div>
-                                </div>
+                <div class="row" style="margin-top: 40px;">
+                    <!-- Skills Section -->
+                    <div class="skills padd-15" style="display: flex; justify-content: space-between; gap: 20px;">
+                        <div class="skills-item" style="flex: 1; text-align: center;">
+                            <h4 style="margin-bottom: 10px; font-family: 'Rubik', sans-serif;">Minilec</h4>
+                            <div class="progress" style="background: rgba(255, 255, 255, 0.2); border-radius: 10px; height: 10px; overflow: hidden;">
+                                <div class="progress-in" style="width: 70%; height: 100%; background: #E06069;"></div>
+                            </div>
+                        </div>
+                        <div class="skills-item" style="flex: 1; text-align: center;">
+                            <h4 style="margin-bottom: 10px; font-family: 'Rubik', sans-serif;">Schneider</h4>
+                            <div class="progress" style="background: rgba(255, 255, 255, 0.2); border-radius: 10px; height: 10px; overflow: hidden;">
+                                <div class="progress-in" style="width: 70%; height: 100%; background: #4BD1B9;"></div>
                             </div>
                         </div>
                     </div>
                 </div>
-                <div class="row">
-                    <!-- FACTS ITEM -->
-                    <div class="fact-item padd-15">
-                        <i class="lni lni-thumbs-up"></i>
+                <div class="row" style="margin-top: 50px;">
+                    <!-- Facts Section -->
+                    <div class="fact-item padd-15" style="flex: 1; text-align: center;">
+                        <i class="lni lni-thumbs-up" style="font-size: 2.5rem; color: #00FF7F; margin-bottom: 10px;"></i>
                         <div class="details">
-                            <h3>400+</h3>
-                            <p>project done</p>
+                            <h3 style="font-size: 1.5rem; font-weight: bold;">400+</h3>
+                            <p style="font-size: 1rem;">Projects Done</p>
                         </div>
                     </div>
-                    <div class="fact-item padd-15">
-                        <i class="lni lni-coffee-cup"></i>
+                    <div class="fact-item padd-15" style="flex: 1; text-align: center;">
+                        <i class="lni lni-coffee-cup" style="font-size: 2.5rem; color: #00FF7F; margin-bottom: 10px;"></i>
                         <div class="details">
-                            <h3>2000</h3>
-                            <p>Established in </p>
+                            <h3 style="font-size: 1.5rem; font-weight: bold;">2000</h3>
+                            <p style="font-size: 1rem;">Established In</p>
                         </div>
                     </div>
-                    <div class="fact-item padd-15">
-                        <i class="lni lni-users"></i>
+                    <div class="fact-item padd-15" style="flex: 1; text-align: center;">
+                        <i class="lni lni-users" style="font-size: 2.5rem; color: #00FF7F; margin-bottom: 10px;"></i>
                         <div class="details">
-                            <h3>800+</h3>
-                            <p>Satisfied users</p>
+                            <h3 style="font-size: 1.5rem; font-weight: bold;">800+</h3>
+                            <p style="font-size: 1rem;">Satisfied Users</p>
                         </div>
                     </div>
-                    <div class="fact-item padd-15">
-                        <i class="lni lni-cup"></i>
+                    <div class="fact-item padd-15" style="flex: 1; text-align: center;">
+                        <i class="lni lni-cup" style="font-size: 2.5rem; color: #00FF7F; margin-bottom: 10px;"></i>
                         <div class="details">
-                            <h3>20+</h3>
-                            <p>Certificates</p>
+                            <h3 style="font-size: 1.5rem; font-weight: bold;">20+</h3>
+                            <p style="font-size: 1rem;">Certificates</p>
                         </div>
                     </div>
                 </div>
             </div>
         </section>
+        
         <!-- SERVICES PROVIDED -->
         <section class="services section">
             <div class="container">
@@ -231,108 +213,61 @@
                 </div>
             </div>
         </section>
-        <section class="Experience" id="experience">
+        <section class="Experience" id="experience" style="background: linear-gradient(to bottom, rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.9)), url('history-background.jpg') no-repeat center center/cover; padding: 50px 0; color: white;">
             <div class="container">
-                <h1 class="scetion-title padd-15">History</h1>
-                
+                <h1 class="section-title padd-15" style="text-align: center; font-size: 2.5rem; font-family: 'Rubik', sans-serif; margin-bottom: 40px;">History</h1>
                 <div class="row">
-                    <div class="education padd-15">
-                        <div class="row">
-                            <div class="timneline-box">
-                                <div class="timeline">
-                                    <!-- timeline item -->
-                                    <div class="timeline-item">
-                                        <i class="lni lni-graduation timeline-icon"></i>
-                                            <h3 class="timeline-date">
-                                                <i class="lni lni-calendar">1993 – 1998</i>
-                                            </h3>
-                                            <h3 class="timeline-title">Minilec India</h3>
-                                            <p class="timeline-text">• Sales Engineer (1993-1996) 
-                                                • Sales responsibility for Mumbai region 
-                                                • Sales Executive (1996) 
-                                                • Additional charge of Gujarat region 
-                                                • Area Manager (1998) 
-                                                • Headed Mumbai, Gujarat, and Asia Pacific Countries (Malaysia, Philippines, 
-                                                Hong Kong) 
-                                            </p>
-                                        
-                                    </div>
-
-                                    <div class="timeline-item">
-                                        <i class="lni lni-graduation timeline-icon"></i>
-                                            <h3 class="timeline-date">
-                                                <i class="lni lni-calendar">2001 -> Ongoing</i>
-                                            </h3>
-                                            <h3 class="timeline-title"> Kunal Enterprises</h3>
-                                            <p class="timeline-text">We are authorised distributors and stockists for M/s Schneider electric India pvt LTD for all LV Products and M/s minilec India pvt LTD Pune we also make control panel A.P.F.C panels demand control panels alarm annunciator panels submersible pump starter panels. We Undertake total energy management solutions project right from installation of meters, cabling of communication wiring and EMS software as per customer requirements
-                                                Onsite calibration of Meters using calibrated and certificated metering kits
-                                            </p>
-                                        
-                                    </div>
-
-                                    <div class="timeline-item">
-                                        <i class="lni lni-graduation timeline-icon"></i>
-                                            <h3 class="timeline-date">
-                                                <i class="lni lni-calendar">2020</i>
-                                            </h3>
-                                            <h3 class="timeline-title">crossed 500+ customers</h3>
-                                            <p class="timeline-text">We crossed 500+ Satisfied Customers in 2020</p>
-                                        
-                                    </div>
+                    <div class="education padd-15" style="max-width: 80%; margin: auto;">
+                        <div class="timeline-box" style="padding: 20px; border-radius: 10px; background: rgba(0, 0, 0, 0.6); box-shadow: 0 8px 15px rgba(0, 0, 0, 0.3);">
+                            <!-- Timeline Item 1 -->
+                            <div class="timeline-item" style="margin-bottom: 30px; position: relative;">
+                                <div class="timeline-icon" style="position: absolute; top: 0; left: -50px; font-size: 2rem; color: #00FF7F;">
+                                    <i class="lni lni-graduation"></i>
                                 </div>
+                                <h3 class="timeline-date" style="font-size: 1.2rem; margin-bottom: 10px; color: #00FF7F;">
+                                    <i class="lni lni-calendar"></i> 1993 – 1998
+                                </h3>
+                                <h3 class="timeline-title" style="font-size: 1.5rem; margin-bottom: 10px;">Minilec India</h3>
+                                <p class="timeline-text" style="font-size: 1rem; line-height: 1.8;">
+                                    • Sales Engineer (1993-1996)<br>
+                                    • Sales responsibility for Mumbai region<br>
+                                    • Sales Executive (1996)<br>
+                                    • Additional charge of Gujarat region<br>
+                                    • Area Manager (1998): Headed Mumbai, Gujarat, and Asia Pacific Countries (Malaysia, Philippines, Hong Kong)
+                                </p>
                             </div>
-
+                            <!-- Timeline Item 2 -->
+                            <div class="timeline-item" style="margin-bottom: 30px; position: relative;">
+                                <div class="timeline-icon" style="position: absolute; top: 0; left: -50px; font-size: 2rem; color: #00FF7F;">
+                                    <i class="lni lni-graduation"></i>
+                                </div>
+                                <h3 class="timeline-date" style="font-size: 1.2rem; margin-bottom: 10px; color: #00FF7F;">
+                                    <i class="lni lni-calendar"></i> 2001 – Ongoing
+                                </h3>
+                                <h3 class="timeline-title" style="font-size: 1.5rem; margin-bottom: 10px;">Kunal Enterprises</h3>
+                                <p class="timeline-text" style="font-size: 1rem; line-height: 1.8;">
+                                    We are authorised distributors and stockists for M/s Schneider Electric India Pvt LTD and M/s Minilec India Pvt LTD. We also manufacture control panels such as A.P.F.C panels, demand control panels, alarm annunciator panels, and submersible pump starter panels. Our services include total energy management solutions, installation of meters, cabling, and EMS software. We also provide onsite calibration of meters with certified kits.
+                                </p>
+                            </div>
+                            <!-- Timeline Item 3 -->
+                            <div class="timeline-item" style="position: relative;">
+                                <div class="timeline-icon" style="position: absolute; top: 0; left: -50px; font-size: 2rem; color: #00FF7F;">
+                                    <i class="lni lni-graduation"></i>
+                                </div>
+                                <h3 class="timeline-date" style="font-size: 1.2rem; margin-bottom: 10px; color: #00FF7F;">
+                                    <i class="lni lni-calendar"></i> 2020
+                                </h3>
+                                <h3 class="timeline-title" style="font-size: 1.5rem; margin-bottom: 10px;">Crossed 500+ Customers</h3>
+                                <p class="timeline-text" style="font-size: 1rem; line-height: 1.8;">
+                                    We proudly crossed the milestone of 500+ satisfied customers in 2020, showcasing our commitment to excellence and customer satisfaction.
+                                </p>
+                            </div>
                         </div>
                     </div>
-                    </div>
-                <!-- <h1 class="scetion-title padd-15">Experience</h1>
-                <div class="row">
-                    <div class="education padd-15">
-                        <div class="row">
-                            <div class="timneline-box">
-                                <div class="timeline">
-                                     timeline item
-                                    <div class="timeline-item">
-                                        <i class="lni lni-briefcase timeline-icon"></i>
-                                            <h3 class="timeline-date">
-                                                <i class="lni lni-calendar">2022 -> 2026</i>
-                                            </h3>
-                                            <h3 class="timeline-title">Thadomal Shahani Engineering College</h3>
-                                            <p class="timeline-text">Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
-                                        
-                                    </div>
-
-                                    <div class="timeline-item">
-                                        <i class="lni lni-briefcase timeline-icon"></i>
-                                            <h3 class="timeline-date">
-                                                <i class="lni lni-calendar">2020 -> 2022</i>
-                                            </h3>
-                                            <h3 class="timeline-title">Pace Junior Science College</h3>
-                                            <p class="timeline-text">Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
-                                        
-                                    </div>
-
-                                    <div class="timeline-item">
-                                        <i class="lni lni-briefcase timeline-icon"></i>
-                                            <h3 class="timeline-date">
-                                                <i class="lni lni-calendar">2012 -> 2020</i>
-                                            </h3>
-                                            <h3 class="timeline-title">Universal High School</h3>
-                                            <p class="timeline-text">Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
-                                        
-                                    </div>
-                                </div>
-                            </div>
-
-                        </div>
-                    </div>
-
-                    
-
-                    
-                </div> -->
+                </div>
             </div>
         </section>
+        
         <section class="pricing" id="pricing">
             <div class="container">
                 <h1 class="section-title padd-15">Companies we deal in </h1>
